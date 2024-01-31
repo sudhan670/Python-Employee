@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Script.js"></script>
+    <script>
+        const car = {
+            type: 'fiat', model: '500',
+            color: 'white'
+        };
+        console.log(car.type + 'is' + car.color);
+
+    </script>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <button onclick="document.getElementById('demo').innerHTML=Date()">Time</button>
+    <script>
+        function displayDate() {
+            document.getElementById('demo').innerHTML = Date();
+        }
+    </script>
+    <button onClick="displayDate()">Time is</button>
+
+</body>
+
+</html>
